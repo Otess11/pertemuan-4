@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+
+/* ini buat seleksi header */
+header {
+    background: rgb(208, 226, 238);
+    background: linear-gradient(90deg, rgb(223, 250, 246) 14%, rgb(142, 179, 239) 45%, rgba(10,6,93,1) 99%);
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: azure;
+    font-weight: 600;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content .textbox {
+    color: black;
+    line-height: 30px;
+    font-weight: 100;
+    padding: 60px;
+
+
+}
+
+.content .textbox h2 {
+    color: rgb(23, 23, 137);
+    font-size: 40px;
+
+}
+
+.content .textbox p {
+    color: black;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.content .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0px 20px;
+    background-color: rgb(23, 23, 96);
+    border-radius: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    
+}
+
+.content .imgbox {
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-top: 50px;
+
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    background: rgb(90, 130, 221);
+    background: radial-gradient(circle, rgb(206, 233, 230) 14%, rgba(38,97,196,1) 45%, rgba(10,6,93,1) 99%);
+    clip-path: circle(600px at right 800px);
+}
+
+
+.subhero {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.subhero li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.subhero li img {
+    max-width: 150px;
+}
+
+.subhero li:hover{
+    transform: translateY(-20px);
+}
+
+.sosmed {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sosmed li{
+    list-style:none;
+}
+
+.sosmed li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.70);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(49, 86, 232);
+    /* background: linear-gradient(90deg, rgba(10,6,93,1) 0%, rgba(38,97,196,1) 52%, rgba(115,235,218,1) 100%); */
+    color: whitesmoke;
+}
+
+
+
+
+
